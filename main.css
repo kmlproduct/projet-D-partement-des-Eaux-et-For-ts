@@ -78,6 +78,7 @@ input {
 
 .menu {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
     background-color: rgb(154, 205, 195);
 
@@ -87,13 +88,13 @@ input {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 15px 0px 15px 0px;
+    padding: 10px 0px 10px 0px;
 
 }
 
 .menu>a:after {
     content: "|";
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .menu>a:after:last-child {
